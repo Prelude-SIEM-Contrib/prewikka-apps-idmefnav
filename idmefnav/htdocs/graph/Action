@@ -1,0 +1,11 @@
+// Action
+graph {
+	graph [rankdir=LR]
+	node [shape=plaintext]
+		Action [label=<
+        <table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+        <tr>
+            <td BGCOLOR="#993015" HREF="/help/idmefnav?idmef_class=Action" TITLE="The Action class is used to describe any actions taken by the analyzer in response to the event.  Is is represented in the IDMEF DTD as follows: ">Action</td>
+        </tr>
+        <tr><td BGCOLOR="#FF5024" HREF="/help/idmefnav?idmef_class=Action" TITLE="The default value is &quot;other&quot;.  (See also Section 10.)" >[ENUM] category (None)</td></tr></table>>]
+}

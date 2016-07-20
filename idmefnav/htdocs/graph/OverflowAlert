@@ -1,0 +1,11 @@
+// OverflowAlert
+graph {
+	graph [rankdir=LR]
+	node [shape=plaintext]
+		OverflowAlert [label=<
+        <table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+        <tr>
+            <td BGCOLOR="#727272" HREF="/help/idmefnav?idmef_class=OverflowAlert" TITLE="The OverflowAlert carries additional information related to buffer overflow attacks.  It is intended to enable an analyzer to provide the details of the overflow attack itself. ">OverflowAlert</td>
+        </tr>
+        <tr><td BGCOLOR="#BFBFBF" HREF="/help/idmefnav?idmef_class=OverflowAlert" TITLE="Some or all of the overflow data itself (dependent on how much the analyzer can capture)." >[BYTE[]] buffer (0..1)</td></tr><tr><td BGCOLOR="#BFBFBF" HREF="/help/idmefnav?idmef_class=OverflowAlert" TITLE="The program that the overflow attack attempted to run (NOTE: this is not the program that was attacked)." >[STRING] program (1)</td></tr><tr><td BGCOLOR="#BFBFBF" HREF="/help/idmefnav?idmef_class=OverflowAlert" TITLE="The size, in bytes, of the overflow (i.e., the number of bytes the attacker sent)." >[INTEGER] size (0..1)</td></tr></table>>]
+}

@@ -1,0 +1,18 @@
+// User
+graph {
+	graph [rankdir=LR]
+	node [shape=plaintext]
+		UserId [label=<
+        <table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+        <tr>
+            <td BGCOLOR="#3d7a99" HREF="/help/idmefnav?idmef_class=UserId" TITLE="The UserId class provides specific information about a user.  More than one UserId can be used within the User class to indicate attempts to transition from one user to another, or to provide complete information about a user's (or process') privileges. ">UserId</td>
+        </tr>
+        <tr><td BGCOLOR="#66CCFF" HREF="/help/idmefnav?idmef_class=UserId" TITLE="A user or group name." >[STRING] name (0..1)</td></tr><tr><td BGCOLOR="#66CCFF" HREF="/help/idmefnav?idmef_class=UserId" TITLE="A user or group number." >[INTEGER] number (0..1)</td></tr><tr><td BGCOLOR="#66CCFF" HREF="/help/idmefnav?idmef_class=UserId" TITLE="The tty the user is using." >[STRING] tty (Optional)</td></tr><tr><td BGCOLOR="#66CCFF" HREF="/help/idmefnav?idmef_class=UserId" TITLE="A unique identifier for the user id, see Section 3.2.9." >[STRING] ident (Optional)</td></tr><tr><td BGCOLOR="#66CCFF" HREF="/help/idmefnav?idmef_class=UserId" TITLE="The type of user information represented.  The permitted values for this attribute are shown below.  The default value is &quot;original-user&quot;.  (See also Section 10.)" >[ENUM] type (Optional)</td></tr></table>>]
+			User -- UserId [label="1..*" dir=forward]
+		User [label=<
+        <table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+        <tr>
+            <td BGCOLOR="#3d7a99" HREF="/help/idmefnav?idmef_class=User" TITLE="The User class is used to describe users.  It is primarily used as a &quot;container&quot; class for the UserId aggregate class, as shown in Figure 16. ">User</td>
+        </tr>
+        <tr><td BGCOLOR="#66CCFF" HREF="/help/idmefnav?idmef_class=User" TITLE="The type of user represented.  The permitted values for this attribute are shown below.  The default value is &quot;unknown&quot;. (See also Section 10.)" >[ENUM] category (Optional)</td></tr><tr><td BGCOLOR="#66CCFF" HREF="/help/idmefnav?idmef_class=User" TITLE="A unique identifier for the user; see Section 3.2.9." >[STRING] ident (Optional)</td></tr></table>>]
+}

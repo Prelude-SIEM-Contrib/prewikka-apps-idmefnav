@@ -1,0 +1,11 @@
+// CreateTime
+graph {
+	graph [rankdir=LR]
+	node [shape=plaintext]
+		CreateTime [label=<
+        <table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+        <tr>
+            <td BGCOLOR="#5b5b99" HREF="/help/idmefnav?idmef_class=CreateTime" TITLE="The CreateTime class is used to indicate the date and time the alert or heartbeat was created by the analyzer. ">CreateTime</td>
+        </tr>
+        </table>>]
+}

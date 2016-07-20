@@ -1,0 +1,18 @@
+// Node
+graph {
+	graph [rankdir=LR]
+	node [shape=plaintext]
+		Address [label=<
+        <table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+        <tr>
+            <td BGCOLOR="#007a00" HREF="/help/idmefnav?idmef_class=Address" TITLE="The Address class is used to represent network, hardware, and application addresses. ">Address</td>
+        </tr>
+        <tr><td BGCOLOR="#00CC00" HREF="/help/idmefnav?idmef_class=Address" TITLE="The network mask for the address, if appropriate." >[STRING] netmask (0..1)</td></tr><tr><td BGCOLOR="#00CC00" HREF="/help/idmefnav?idmef_class=Address" TITLE="The address information.  The format of this data is governed by the category attribute." >[STRING] address (1)</td></tr><tr><td BGCOLOR="#00CC00" HREF="/help/idmefnav?idmef_class=Address" TITLE="The type of address represented.  The permitted values for this attribute are shown below.  The default value is &quot;unknown&quot;.  (See also Section 10.)" >[ENUM] category (Optional)</td></tr><tr><td BGCOLOR="#00CC00" HREF="/help/idmefnav?idmef_class=Address" TITLE="The name of the Virtual LAN to which the address belongs." >[STRING] vlan-name (Optional)</td></tr><tr><td BGCOLOR="#00CC00" HREF="/help/idmefnav?idmef_class=Address" TITLE="The number of the Virtual LAN to which the address belongs." >[INTEGER] vlan-num (Optional)</td></tr><tr><td BGCOLOR="#00CC00" HREF="/help/idmefnav?idmef_class=Address" TITLE="A unique identifier for the address; see Section 3.2.9." >[STRING] ident (Optional)</td></tr></table>>]
+			"Node" -- Address [label="0..*" dir=forward]
+		"Node" [label=<
+        <table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+        <tr>
+            <td BGCOLOR="#007a00" HREF="/help/idmefnav?idmef_class=Node" TITLE="The Node class is used to identify hosts and other network devices (routers, switches, etc.). ">Node</td>
+        </tr>
+        <tr><td BGCOLOR="#00CC00" HREF="/help/idmefnav?idmef_class=Node" TITLE="The location of the equipment." >[STRING] location (0..1)</td></tr><tr><td BGCOLOR="#00CC00" HREF="/help/idmefnav?idmef_class=Node" TITLE="The name of the equipment.  This information MUST be provided if no Address information is given." >[STRING] name (0..1)</td></tr><tr><td BGCOLOR="#00CC00" HREF="/help/idmefnav?idmef_class=Node" TITLE="The &quot;domain&quot; from which the name information was obtained, if relevant.  The permitted values for this attribute are shown in the table below.  The default value is &quot;unknown&quot;. (See also Section 10 for extensions to the table.)" >[ENUM] category (Optional)</td></tr><tr><td BGCOLOR="#00CC00" HREF="/help/idmefnav?idmef_class=Node" TITLE="A unique identifier for the node; see Section 3.2.9." >[STRING] ident (Optional)</td></tr></table>>]
+}

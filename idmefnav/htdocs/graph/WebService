@@ -1,0 +1,11 @@
+// WebService
+graph {
+	graph [rankdir=LR]
+	node [shape=plaintext]
+		WebService [label=<
+        <table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+        <tr>
+            <td BGCOLOR="#997a7a" HREF="/help/idmefnav?idmef_class=WebService" TITLE="The WebService class carries additional information related to web traffic. ">WebService</td>
+        </tr>
+        <tr><td BGCOLOR="#FFCCCC" HREF="/help/idmefnav?idmef_class=WebService" TITLE="The URL in the request." >[STRING] url (1)</td></tr><tr><td BGCOLOR="#FFCCCC" HREF="/help/idmefnav?idmef_class=WebService" TITLE="The CGI script in the request, without arguments." >[STRING] cgi (0..1)</td></tr><tr><td BGCOLOR="#FFCCCC" HREF="/help/idmefnav?idmef_class=WebService" TITLE="The HTTP method (PUT, GET) used in the request." >[STRING] http-method (0..1)</td></tr><tr><td BGCOLOR="#FFCCCC" HREF="/help/idmefnav?idmef_class=WebService" TITLE="The arguments to the CGI script." >[STRING] arg (0..*)</td></tr></table>>]
+}

@@ -1,0 +1,11 @@
+// AnalyzerTime
+graph {
+	graph [rankdir=LR]
+	node [shape=plaintext]
+		AnalyzerTime [label=<
+        <table BORDER="0" CELLBORDER="1" CELLSPACING="0">
+        <tr>
+            <td BGCOLOR="#5b5b99" HREF="/help/idmefnav?idmef_class=AnalyzerTime" TITLE="The AnalyzerTime class is used to indicate the current date and time on the analyzer.  Its values should be filled in as late as possible in the message transmission process, ideally immediately before placing the message &quot;on the wire&quot;. ">AnalyzerTime</td>
+        </tr>
+        </table>>]
+}
